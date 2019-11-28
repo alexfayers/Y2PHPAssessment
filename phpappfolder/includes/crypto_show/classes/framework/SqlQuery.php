@@ -17,8 +17,8 @@
 
   public static function queryGetCryptoMachineNames()
   {
-   $sql_query_string  = 'SELECT Crypto_name';
-   $sql_query_string .= ' FROM Crypto';
+   $sql_query_string  = 'SELECT Device_name';
+   $sql_query_string .= ' FROM Device';
    return $sql_query_string;
   }
 

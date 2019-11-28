@@ -36,7 +36,8 @@ class Validate
             'process_new_user_details',
             'user_login',
             'process_login',
-            'user_logout'
+            'user_logout',
+            'add_device'
         ];
 
         if (in_array($route, $routes))

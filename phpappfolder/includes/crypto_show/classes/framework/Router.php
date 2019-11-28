@@ -90,6 +90,12 @@ class Router
                 $controller = Factory::buildObject('ErrorController');
                 $controller->setErrorType('route-not-found-error');
                 break;
+            case 'add_device';
+                $controller = Factory::buildObject('AddDeviceFormController');
+                break;
+            case 'process_add_device';
+                $controller = Factory::buildObject('AddDeviceProcessController');
+                break;
             case 'index':
             default:
             $controller = Factory::buildObject('IndexController');

@@ -86,6 +86,8 @@ HTML;
    if ($logged_in)
    {
     $menu_option_buttons .= '<button name="route" value="user_logout">Logout</button>';
+    $menu_option_buttons .= '&nbsp;&nbsp;';
+    $menu_option_buttons .= '<button name="route" value="add_device">Add new Device</button>';
    }
    else
    {
