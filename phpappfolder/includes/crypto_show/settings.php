@@ -41,8 +41,8 @@ function getPdoDatabaseConnectionDetails()
     $db_name = 'cryptoshow_db';
     $pdo_dsn = $rdbms . ':host=' . $host. ';port=' . $port . ';dbname=' . $db_name . ';charset=' . $charset;
 
-    $user_name = 'cryptoshowuser';
-    $user_password = 'cryptoshowpass';
+    $user_name = 'root';
+    $user_password = '';
     $db_connect_details['pdo_dsn'] = $pdo_dsn;
     $db_connect_details['pdo_user_name'] = $user_name;
     $db_connect_details['pdo_user_password'] = $user_password;
